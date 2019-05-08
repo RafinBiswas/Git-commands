@@ -1,3 +1,14 @@
 git init
 
-$ git remote add origin git@github.com:RafinBiswas/<Repo_Name>.git
+Verify that the remote URL has changed:
+git remote -v
+
+your remote's URL from SSH to HTTPS:
+git remote set-url origin https://github.com/USERNAME/REPOSITORY.git
+or,
+git remote add origin https://github.com/username/new_repo
+
+your remote's URL from HTTPS to SSH:
+git remote add origin git@github.com:username/new_repo
+or,
+git remote set-url origin git@github.com:USERNAME/REPOSITORY.git
