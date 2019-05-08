@@ -70,5 +70,3 @@ Tools:
 
 	To merge branch:
 		git merge branch_name (Switch in main branch)
-
-The End.
