@@ -55,3 +55,15 @@ Let's first see our current branches:
 
 To create a new branch:
 	git branch branch-name
+
+To Switched branch:
+	git checkout 'branch-name'
+
+To create a new branch and Switched branch:
+	git branch my-new-branch
+	git checkout my-new-branch
+	or,
+	git checkout -b my-new-branch
+
+To delete branch:
+	git branch -d user-profile
