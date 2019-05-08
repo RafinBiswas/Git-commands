@@ -1,0 +1,3 @@
+git init
+
+$ git remote add origin git@github.com:RafinBiswas/<Repo_Name>.git
