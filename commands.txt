@@ -69,9 +69,6 @@ Tools:
 		git branch -d user-profile
 
 	To merge branch:
-<<<<<<< HEAD
-		git merge branch_name (Switch in main branch)
-=======
 		git merge branch_name (Switch in main branch)
 		Example:
 			git add *
@@ -82,5 +79,4 @@ Tools:
 
 			git checkout master 
 			git merge development
-			git push -u origin master 
->>>>>>> 70ce920d97825a46f764f73782f2b3cbfa01b98a
+			git push -u origin master
