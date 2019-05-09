@@ -70,5 +70,13 @@ Tools:
 
 	To merge branch:
 		git merge branch_name (Switch in main branch)
+		Example:
+			git add *
+			git commit -m "My initial commit message"
+			git push -u origin development
+			
+			Now I want to merge all the changes on the development branch into the master. My current approach is:
 
-The End.
+			git checkout master 
+			git merge development
+			git push -u origin master 
